@@ -1,40 +1,27 @@
+# Hey there, I'm DarkR7-@ 👾
+
+Welcome to my GitHub space! I'm a passionate cybersecurity enthusiast and a proud member of the 🛡 *HackerTroup* group.
+
+## About Me
+- 🔐 Penetration Testing | Capture The Flag (CTF) Player  
+- 💻 Love exploring system internals and network security  
+- 🧠 Always hacking my way into learning something new  
+- 🧑‍💻 Currently working on real-world infosec projects  
+
+## My Arsenal
+- 🛠 Tools: Nmap, Wireshark, Burp Suite, Metasploit  
+- 💻 Languages: Python, Bash, C  
+- 📁 Repositories filled with:  
+  - Scripts for automation  
+  - Writeups for CTFs  
+  - Custom security tools  
+
+## Connect With Me
+- 🧠 Part of the *HackerTroup* - a gang of digital ninjas  
+- 🔗 Stay tuned for projects that push the limits of tech
+
+> “Hack the planet, but secure your soul.” — DarkR7-@
+
 ---
-id: the-basics
-title: The Basics
-sidebar_label: The Basics
-slug: /
----
 
-## Put a locally running HTTP, HTTPS or TLS app on the internet
-
-localhost.run is a client-less tool to instantly make a locally running application available on an internet accessible URL.
-
-All major operating systems already have SSH installed, and localhost.run uses SSH as a client, so no download is necessary to use the service and no account setup is needed for free domains.
-
-To connect an internet domain to an application running locally on port 8080 open a command terminal and run:
-
-```bash
-ssh -R 80:localhost:8080 localhost.run
-```
-
-import { useState } from 'react'
-
-export const PortChooser = () => {
-  const [port, setPort] = useState(3000);
-  return (
-    <>
-      running on&nbsp;
-      <label for="port">local port</label>
-      &nbsp;
-      <input style={{width: "5em"}} type="number" id="port" name="port" min="1" max="65535" value={port} onChange={(event) => setPort(event.target.value)} />
-      ?
-      use this command:
-      <pre><code parentName="pre" {...{
-              "className": "bash"
-            }}>{`ssh -R 80:localhost:${port} localhost.run
-`}</code></pre>
-    </>
-  )
-};
-
-<PortChooser />
+Feel free to explore and collaborate!
